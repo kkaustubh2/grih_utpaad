@@ -229,24 +229,6 @@ $result = $conn->query($query);
         <?php endif; ?>
     </div>
 
-    <div class="features">
-        <div class="card">
-            <i class="fas fa-store"></i>
-            <h3>Sell Handmade Products</h3>
-            <p>List crafts, food items, services, and more.</p>
-        </div>
-        <div class="card">
-            <i class="fas fa-shopping-cart"></i>
-            <h3>Shop with Purpose</h3>
-            <p>Explore & buy unique goods directly from creators.</p>
-        </div>
-        <div class="card">
-            <i class="fas fa-user-shield"></i>
-            <h3>Admin Monitoring</h3>
-            <p>Ensuring safe, authentic experiences.</p>
-        </div>
-    </div>
-
     <!-- Featured Products Section -->
     <h2 class="section-title">Featured Products</h2>
     <div class="products-grid">
@@ -290,6 +272,25 @@ $result = $conn->query($query);
     </div>
 
     <a href="products.php" class="view-all-btn">View All Products</a>
+
+    <!-- Features Section -->
+    <div class="features">
+        <div class="card">
+            <i class="fas fa-store"></i>
+            <h3>Sell Handmade Products</h3>
+            <p>List crafts, food items, services, and more.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-shopping-cart"></i>
+            <h3>Shop with Purpose</h3>
+            <p>Explore & buy unique goods directly from creators.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-user-shield"></i>
+            <h3>Admin Monitoring</h3>
+            <p>Ensuring safe, authentic experiences.</p>
+        </div>
+    </div>
 </div>
 
 <?php include('includes/footer.php'); ?>
